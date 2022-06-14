@@ -1,6 +1,6 @@
 import React from 'react';
-import NavBarLogin from '../../Components/Home/NavBarLogin';
-import Slider from '../../Components/Home/Slider';
+import NavBarLogin from '../../components/utils/NavBarLogin';
+import Slider from '../../components/home/Slider';
 
 function HomePage() {
   return (
