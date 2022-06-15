@@ -10,7 +10,7 @@ function NavBarLogin() {
       <Container>
         <Navbar.Brand>
           <a href='/'>
-            <img src={logo} className='logo' />
+            <img src={logo} className='logo' alt='logo' />
           </a>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav' />
