@@ -10,14 +10,12 @@ import Footer from '../../components/utils/Footer';
 function HomePage() {
   return (
     <div className='font' style={{ minHeight: '670px' }}>
-      <NavBarLogin />
       <Slider />
       <HomeCategory />
       <CardProductsContainer title='الاكثر مبيعا' btntitle='المزيد' />
       <DiscountSection />
       <CardProductsContainer title='أحدث الازياء' btntitle='المزيد' />
       <BrandFeatured title='اشهر الماركات' btntitle='المزيد' />
-      <Footer />
     </div>
   );
 }
