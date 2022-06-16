@@ -11,7 +11,7 @@ function ShopProductPage() {
     <div style={{ minHeight: '670px' }}>
       <CategoryHeader />
       <Container>
-        <SearchCountResult title='400 نتجية بحث' />
+        <SearchCountResult title='400 نتيجة بحث' />
         <Row className='d-flex flex-row'>
           <Col sm='2' xs='2' md='1' className='d-flex'>
             <SideFilter />
