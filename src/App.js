@@ -7,6 +7,7 @@ import LoginPage from './pages/auth/LoginPage';
 import RegisterPage from './pages/auth/RegisterPage';
 import AllCategoryPage from './pages/category/AllCategoryPage';
 import AllBrandPage from './pages/brand/AllBrandPage';
+import ShopProductPage from './pages/products/ShopProductPage';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/register' element={<RegisterPage />} />
           <Route path='/allcategory' element={<AllCategoryPage />} />
           <Route path='/allbrand' element={<AllBrandPage />} />
+          <Route path='/products' element={<ShopProductPage />} />
         </Routes>
       </BrowserRouter>
       <Footer />

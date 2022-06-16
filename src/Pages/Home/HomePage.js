@@ -12,9 +12,9 @@ function HomePage() {
     <div className='font' style={{ minHeight: '670px' }}>
       <Slider />
       <HomeCategory />
-      <CardProductsContainer title='الاكثر مبيعا' btntitle='المزيد' />
+      <CardProductsContainer title='الاكثر مبيعا' btntitle='المزيد' pathText={'/products'} />
       <DiscountSection />
-      <CardProductsContainer title='أحدث الازياء' btntitle='المزيد' />
+      <CardProductsContainer title='أحدث الازياء' btntitle='المزيد' pathText={'/products'} />
       <BrandFeatured title='اشهر الماركات' btntitle='المزيد' />
     </div>
   );
