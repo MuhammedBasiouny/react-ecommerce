@@ -5,7 +5,7 @@ import ReactStars from 'react-rating-stars-component';
 const RatePost = () => {
   const setting = {
     size: 20,
-    count: 5,
+    count: 6,
     color: '#979797',
     activeColor: '#ffc107',
     value: 7.5,
