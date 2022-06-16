@@ -1,7 +1,7 @@
 import React from 'react';
 import next from '../../images/next.png';
 
-const LeftButton = ({ onClick, onDisable }) => {
+const LeftButton = (onClick, onDisable) => {
   return (
     <img
       src={next}

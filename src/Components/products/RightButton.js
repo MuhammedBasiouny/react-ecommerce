@@ -1,7 +1,7 @@
 import React from 'react';
 import prev from '../../images/prev.png';
 
-const RightButton = ({ onClick, onDisable }) => {
+const RightButton = (onClick, onDisable) => {
   return (
     <img
       src={prev}
