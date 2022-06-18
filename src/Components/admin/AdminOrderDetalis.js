@@ -33,7 +33,7 @@ const AdminOrderDetalis = () => {
             }}
             className='mx-2'
           >
-            احمد عبداللة
+            احمد عبدالله
           </div>
         </Col>
 
