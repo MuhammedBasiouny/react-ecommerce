@@ -1,14 +1,15 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container, Row, Spinner } from 'react-bootstrap';
-import SubTitle from '../utils/SubTitle';
-import CategoryCard from './../category/CategoryCard';
-import HomeCategoryHook from '../../hooks/category/home-category-hook';
+import SubTiltle from '../Uitily/SubTiltle';
+import CategoryCard from './../Category/CategoryCard';
+import HomeCategoryHook from '../../hook/category/home-category-hook';
+
 const HomeCategory = () => {
   const [category, loading, colors] = HomeCategoryHook();
 
   return (
     <Container>
-      <SubTitle title='التصنيفات' btntitle='المزيد' pathText='/allcategory' />
+      <SubTiltle title='التصنيفات' btntitle='المزيد' pathText='/allcategory' />
       <Row className='my-2 d-flex justify-content-between'>
         {loading === false ? (
           category.data ? (
