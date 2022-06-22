@@ -1,8 +1,8 @@
-import baseUrl from './../api/baseURL';
+import baseUrl from '../Api/baseURL'
 
-const useGetData = async (url, params) => {
-  const res = await baseUrl.get(url, params);
-  return res.data;
-};
+const useGetData = async (url, parmas) => {
+    const res = await baseUrl.get(url, parmas);
+    return res.data;
+}
 
 export default useGetData;
