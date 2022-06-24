@@ -5,7 +5,7 @@ import { useSelector, useDispatch } from 'react-redux'
 import { getAllCategory } from '../../redux/actions/categoryAction'
 
 const CategoryContainer = ({ data ,loading}) => {
- 
+
     const colors = ["#FFD3E8", "#F4DBA5", "#55CFDF", "#FF6262", "#0034FF", "#FFD3E8"]
     return (
         <Container >

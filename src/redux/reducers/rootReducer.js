@@ -1,6 +1,7 @@
-import {combineReducers} from 'redux'
+import { combineReducers } from 'redux'
 import categoryReducer from './categoryReducer'
-
-export default combineReducers ({
-    allCategory:categoryReducer ,
+import brandReducer from './brandReducer'
+export default combineReducers({
+    allCategory: categoryReducer,
+    allBrand: brandReducer
 })
